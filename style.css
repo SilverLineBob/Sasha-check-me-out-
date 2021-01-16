@@ -1,0 +1,224 @@
+body {
+background-color: black;
+}
+
+
+img {
+    height: 50px;
+}
+
+#logo  {
+    margin-right: 10px;
+    opacity: 0.9;
+
+
+    }
+
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 69px;
+    text-align: right;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+
+  
+}
+
+
+.navigation a {
+    margin: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+.navigation {
+    margin-right: 10px;
+} 
+
+.back {
+top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img-mission-background.jpg);
+        height: 700px;
+    width: 1200px;
+    margin: 40px 60px;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.back h2 {
+color: seashell;
+display: relative;
+bottom: 150px;
+background-color: black;
+font-size: 30px;
+border: solid 10px black;
+width: 100%;
+font-family: Helvetica;
+margin-bottom: 0;
+
+}
+
+.back h4 {
+    color:seashell;
+    background-color: black; 
+    margin: 0 auto;
+    font-size: 22px;
+    width: 100%;
+    font-family: Helvetica;
+    padding-bottom: 5px;
+    
+}
+
+
+
+.mainsection {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    width: 100%;
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black; 
+    margin-top: 10px;
+  }
+  
+ 
+h4.mainsection  {
+    font-size: 22px;
+}  
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    margin: 15px auto;
+}
+
+.container h3 {
+    color: seashell;
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.container img {
+    height: 200px;
+    width: 300px;
+}
+
+.container .box {
+margin: 0 15px;
+}
+
+
+.lower_container {
+    background-image: url(./img-locations-background.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+background-position: center center;
+box-sizing: border-box;
+
+
+
+
+
+
+} 
+
+#location {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding-top: 50px;
+ 
+}
+
+.lower_boxes {
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+justify-content: center;
+}
+
+.lower_container h2 {
+    margin-top: 20px auto 5px;
+}
+
+.inner_box {
+    margin: 15px 40px;
+
+}
+
+.lower_boxes h5 {
+margin: 10px auto;
+line-height: 50px;
+}
+
+.lower_boxes h4 {
+    font-weight: 700;
+}
+
+.lower_container .box {
+    color: seashell;
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    width: 300px;
+    height: 270px;
+    margin: 0 20px;
+    font-size: 25px;
+    align-content: center;
+
+}
+
+.contact {
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contact h5 {
+    font-size: 18px;
+
+}
+
+#copyright {
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 0;
+
+
+}
+
+
+
