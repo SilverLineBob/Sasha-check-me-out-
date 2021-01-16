@@ -10,8 +10,6 @@ img {
 #logo  {
     margin-right: 10px;
     opacity: 0.9;
-
-
     }
 
 
@@ -53,7 +51,7 @@ top: 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    background-image: url(./img-mission-background.jpg);
+    background-image: url(./Images/img-mission-background.jpg);
         height: 700px;
     width: 1200px;
     margin: 40px 60px;
@@ -133,7 +131,7 @@ margin: 0 15px;
 
 
 .lower_container {
-    background-image: url(./img-locations-background.jpg);
+    background-image: url(./Images/img-locations-background.jpg);
     background-repeat: no-repeat;
     height: 500px;
 background-position: center center;
