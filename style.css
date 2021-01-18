@@ -47,19 +47,16 @@ img {
 } 
 
 .back {
-top: 50px;
+    top: 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
     background-image: url(./Images/img-mission-background.jpg);
-        height: 700px;
-    width: 1200px;
+    height: 700px;
     margin: 40px 60px;
     align-items: center;
     justify-content: center;
-
-
-
+    background-size: cover;
 }
 
 .back h2 {
