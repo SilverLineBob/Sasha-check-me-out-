@@ -53,9 +53,9 @@ top: 50px;
     flex-direction: column;
     background-image: url(./Images/img-mission-background.jpg);
         height: 700px;
-    width: 1200px;
     margin: 40px 60px;
     align-items: center;
+    background-size: cover;
     justify-content: center;
 
 
@@ -154,7 +154,6 @@ box-sizing: border-box;
 
 .lower_boxes {
     display: flex;
-    align-items: center;
     margin: 15px auto;
 justify-content: center;
 }
@@ -183,7 +182,6 @@ line-height: 50px;
     width: 300px;
     text-align: center;
     width: 300px;
-    height: 270px;
     margin: 0 20px;
     font-size: 25px;
     align-content: center;
